@@ -18,7 +18,7 @@
 - **Этап №3** Реализуем методы и программу на языке C#
 
 ### **Этап №1** Репозиторий на GitHub
-    - Репозиторий доступен по ссылке: [Итоговый проект](https://github.com/Akkenton/ProjedctSpec_1-chapter_MarinAA.git)
+- Репозиторий доступен по ссылке: [Итоговый проект. Ссылка на GitHub](https://github.com/Akkenton/ProjedctSpec_1-chapter_MarinAA.git)
 ### **Этап №2** описание методов и алгоритма.
 
 - Метод заполнения базового массива *FillBaseArrayAndReturnResultArrayLength( )* в виде блок-схемы алгоритма:
