@@ -52,3 +52,25 @@ void PrintArray(string[] array)
     System.Console.Write("]");
     System.Console.WriteLine();
 }
+
+// --------------------------- Тело программы ---------------------
+
+
+Console.Clear();
+
+System.Console.WriteLine("Введите длинну базового массива строк: ");
+string[] baseArray = new string[int.Parse(Console.ReadLine())];  // инициализируем базовый массив
+int lengthElement = 3;   // задается длина элемента по ТЗ
+int resultArrayLength = 0; // объявляется переменная под длину результирующего массива
+
+resultArrayLength = FillBaseArrayAndReturnResultArrayLength(baseArray, lengthElement); // получаем длину результирующего массива и заполняем базовый массив
+
+System.Console.WriteLine("Полученный массив: ");
+PrintArray(baseArray);
+
+string[] resultArray = new string[resultArrayLength]; // инициализируем результирующий массив с полученной длиной
+
+FillResultArray(baseArray, resultArray, lengthElement); // заполняем результирующий массив по ТЗ
+
+System.Console.WriteLine("Результирующий массив: ");
+PrintArray(resultArray);
